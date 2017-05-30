@@ -8,8 +8,8 @@ A Python library for creating priority-sorted debug logs to support application 
 Temporary directions:
 
 1. Clone repo
-2. Copy 'main.py' into your project
-3. Import 'main' into your project (Should probably rename to avoid namespace pollution.)
+2. Copy 'debug_module.py' into your project
+3. Import 'debug_module' into your project
 4. Call helper methods as needed.
 
 e.g.
