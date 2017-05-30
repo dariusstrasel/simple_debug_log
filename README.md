@@ -3,6 +3,17 @@ Author: Darius Strasel @dariusstrasel
 # Overview:
 A Python library for creating priority-sorted debug logs to support application telemetry.
 
+# How to install:
+
+Temporary directions:
+
+1. Clone repo
+2. Copy 'main.py' into your project
+3. Import 'main' into your project (Should probably rename to avoid namespace pollution.)
+4. Call helper methods as needed.
+
+TODO: Add package to PYPI? Im sure there are a million other log libraries.
+
 # How to Use:
 Use **debug.info(), debug.api(), or debug.critical()**, the same way you'd use print(). The difference between these three respective methods is their output.
 
