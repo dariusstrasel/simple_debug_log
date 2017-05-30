@@ -18,6 +18,12 @@ Sends the following to your console:
 ```
 And produces a "CRITICAL.log" at the root directory.
 
+The message format is as follows:
+
+```python
+datetime.datetime.now(): debug.priority_map[priority]['message header']"strings and stuff and such"
+```
+
 # API:
 The API is custimizable! If you'd like to change an existing method, or add your own, do as follows:
     
@@ -37,6 +43,6 @@ Add a method:
 ```python
     @classmethod
     def example(self, text):
-        example_priority = 0
+        example_priority = 0  # This represents the key in the debug.priority_map dictionary.
         return self.__debug_print("%s: %s" % (self.priority_map[example_priority]['message_header'], text), example_priority)
 ```
