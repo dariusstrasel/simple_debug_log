@@ -29,7 +29,7 @@ Add a method:
         1: {'filename': 'INFO.log', 'message_header': 'INFO'},
         2: {'filename': 'DEBUG.log', 'message_header': 'DEBUG'},
         3: {'filename': 'CRITICAL.log', 'message_header': 'CRITICAL'},
-        4: {'filename': 'EXAMPLE.log', 'message_header': 'EXAMPLE',
+        4: {'filename': 'EXAMPLE.log', 'message_header': 'EXAMPLE',  # This is an example.
     }
 ```
 
