@@ -12,6 +12,11 @@ Temporary directions:
 3. Import 'main' into your project (Should probably rename to avoid namespace pollution.)
 4. Call helper methods as needed.
 
+e.g.
+```python
+from debug_module import debug
+```
+
 TODO: Add package to PYPI? Im sure there are a million other log libraries.
 
 # How to Use:
