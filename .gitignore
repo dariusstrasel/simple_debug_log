@@ -1,0 +1,7 @@
+# IntelliJ Metadata
+.idea/
+
+# Test/Working Files
+CRITICAL.log
+INFO.log
+API.log
